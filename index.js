@@ -14,7 +14,7 @@ function currentLine(currentLine){
   if(currentLine.length === 0){
     return "The line is currently empty."
   }
-  for(){
+  forEach(){
     
   }
 }
