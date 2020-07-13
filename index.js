@@ -14,7 +14,8 @@ function currentLine(currentLine){
   if(currentLine.length === 0){
     return "The line is currently empty."
   }
-  currentLine.forEach(){
-    
-  }
+  var newLine = currentLine.map((element, index)=>{
+    return element + " " + index;
+  })
+  return `The line is currently: ${newLine}`;
 }
