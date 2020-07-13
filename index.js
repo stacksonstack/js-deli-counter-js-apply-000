@@ -15,7 +15,7 @@ function currentLine(currentLine){
     return "The line is currently empty."
   }
   var newLine = currentLine.map((element, index )=>{
-    return `${index+1}. ${element} `
+    return `${index+1}. ${element}`
   })
   return `The line is currently: ${newLine}`;
 }
